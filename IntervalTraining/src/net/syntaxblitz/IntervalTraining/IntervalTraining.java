@@ -55,8 +55,6 @@ public class IntervalTraining {
 		StdAudio.close();
 
 		consoleScanner.close();
-
-		// need to terminate a Java program with sound
 		System.exit(0);
 	}
 
