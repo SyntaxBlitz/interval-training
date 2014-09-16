@@ -58,7 +58,7 @@ public class IntervalTraining {
 		System.exit(0);
 	}
 
-	private String getNoteName(int halfStepsFromA) {
+	private String getNoteName(int halfStepsFromA) {	// TODO: make context-sensitive: should show flat/sharp depending on context
 		while (halfStepsFromA < 0) {
 			halfStepsFromA += 12;
 		}
