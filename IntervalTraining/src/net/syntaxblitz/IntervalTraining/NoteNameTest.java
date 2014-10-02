@@ -23,7 +23,7 @@ public class NoteNameTest {
 		while(halfStepsFromA < 0) {
 			halfStepsFromA += 12;
 		}
-		halfStepsFromA = halfStepsFromA % 12;
+		halfStepsFromA %= 12;
 		
 		String[] noteArray = {"A", "Bb", "B", "C", "C#", "D", "Eb", "E", "F", "F#", "G", "G#"};
 		
